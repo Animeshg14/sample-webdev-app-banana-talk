@@ -10,12 +10,40 @@ body{
 }
 .container{
     text-align: center;
-    height: 100px;
     display:block;
     padding: 1rem;
+    overflow: auto;
+}
 
+#img-min1{
+    width: 5%;
+    height:10%;
+    float:left;
+}
+
+.container h1{
+    display:inline;
 }
 
 .header{
     background-color: var(--primary-color);
+}
+
+#txt-area{
+    display:block;
+    margin:auto;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+#btn-translate{
+    margin: 1% 0% 0% 47%;
+}
+#txt-translated-area{
+    margin: 1% 19.5%;
+    width: 123vh;
+    height: 20vh;
+    border: 1px solid black;
+    display: block;
+    padding: 1rem;
 }
