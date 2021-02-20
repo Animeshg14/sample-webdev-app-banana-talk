@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+body{
+    font-family: 'Architects Daughter', cursive;
+    margin:auto;
+}
+
+:root{
+    --primary-color:#FDE047;
+}
+.container{
+    text-align: center;
+    height: 100px;
+    display:block;
+    padding: 1rem;
+
+}
+
+.header{
+    background-color: var(--primary-color);
+}
